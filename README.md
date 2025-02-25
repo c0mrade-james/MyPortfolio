@@ -53,8 +53,8 @@ No back-end or database setup required. Simply ensure you have a modern browser 
 ### Running the Website Locally  
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/c0mradeJames/Cybersecurity-Website.git
-   cd cybersecurity-website
+   git clone https://github.com/c0mrade-james/MyPortfolio.git
+   cd MyPortfolio
    ```  
 2. **Open index.html**:
 Use any browser to open the ```index.html``` file.
@@ -120,7 +120,7 @@ Contributions and feedback are welcome!
 If you have any questions or suggestions, feel free to reach out at:
 
 - 📧 Email: c0mradeJames@gmail.com
-- 🌐 Portfolio: [Kadir Yazadzhi](https://c0mradeJames.github.io/portfolio/)
+- 🌐 Portfolio: [c0mrade-james](https://c0mradeJames.github.io/portfolio/)
 
 ---
 
