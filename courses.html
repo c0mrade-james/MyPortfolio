@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+  <link rel="stylesheet" href="Style/navbar.css">
+  <link rel="stylesheet" href="Style/style.css">
+  <link rel="stylesheet" href="Style/course-cards.css">
+  <link rel="stylesheet" href="Style/courses-page-css/cards-section.css">
+  <link rel="stylesheet" href="Style/courses-page-css/sorting-section.css">
+  <link rel="stylesheet" href="Style/feature-cards.css">
+  <link rel="stylesheet" href="Style/courses-page-css/pages-changer-section.css">
+
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<nav>
+  <div class="nav-bar">
+    <i class='bx bx-menu sidebarOpen' ></i>
+    <span class="logo navLogo"><a href="#">c0mradeJames</a></span>
+
+    <div class="menu">
+      <div class="logo-toggle">
+        <span class="logo"><a href="#">c0mradeJames</a></span>
+        <i class='bx bx-x siderbarClose'></i>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="darkLight-searchBox">
+      <div class="dark-light">
+        <i class='bx bx-moon moon'></i>
+        <i class='bx bx-sun sun'></i>
+      </div>
+
+      <div class="searchBox">
+        <div class="searchToggle">
+          <i class='bx bx-x cancel'></i>
+          <i class='bx bx-search search'></i>
+        </div>
+
+        <div class="search-field">
+          <input type="text" placeholder="Search...">
+          <i class='bx bx-search'></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="section sorting-section">
+  <div class="sorting-box-container type-sorting">
+    <div class="active-box sorting-box type-box">
+      <p>All</p>
+    </div>
+
+    <div class="sorting-box type-box">
+        <p>Programming</p>
+    </div>
+
+    <div class="sorting-box type-box">
+      <p>Cybersecurity</p>
+    </div>
+  </div>
+
+  <div class="sorting-box-container time-soring">
+    <div class="active-box sorting-box time-box">
+      <p>All</p>
+    </div>
+
+    <div class="sorting-box time-box">
+      <p>< 1 month</p>
+    </div>
+
+    <div class="sorting-box time-box">
+      <p>> 1 month</p>
+    </div>
+
+  </div>
+
+  <div class="sorting-box-container level-sorting">
+    <div class="active-box sorting-box level-box">
+      <p>All</p>
+    </div>
+
+    <div class="sorting-box level-box">
+      <p>Easy</p>
+    </div>
+
+    <div class="sorting-box level-box">
+      <p>Medium</p>
+    </div>
+
+    <div class="sorting-box level-box">
+      <p>Hard</p>
+    </div>
+
+    <div class="sorting-box level-box">
+      <p>Very Hard</p>
+    </div>
+  </div>
+
+  <div class="sorting-box-container certificate-sorting">
+    <div class="active-box sorting-box certificate-box">
+      <p>All</p>
+    </div>
+
+    <div class="sorting-box certificate-box">
+      <p>With Certificate</p>
+    </div>
+
+    <div class="sorting-box certificate-box">
+      <p>Without Certificate</p>
+    </div>
+  </div>
+</section>
+
+<section id="courses-cards-section" class="section courses-cards-section">
+
+</section>
+
+<section class="section pages-changer">
+  <div class="numbers-container">
+    <div class="page-number-box arrow">
+      <i class="fa-solid fa-angles-left"></i>
+    </div>
+
+    <div class="page-number-box arrow">
+      <i class="fa-solid fa-chevron-left"></i>
+    </div>
+
+    <div class="numbers">
+
+    </div>
+
+    <div class="page-number-box arrow">
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+
+    <div class="page-number-box arrow">
+      <i class="fa-solid fa-angles-right"></i>
+    </div>
+
+  </div>
+</section>
+
+</body>
+
+<script src="Script/navbar.js"></script>
+<script src="Script/script.js"></script>
+<script src="Script/courses-page-script/sorting-buttons-change.js"></script>
+<script src="Script/courses-page-script/generate-courses-cards.js"></script>
+</html>

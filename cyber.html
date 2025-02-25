@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Solutions</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cyber Security Solutions</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Your Digital Security is Our Priority</h2>
+            <p>Protecting businesses and individuals from cyber threats with cutting-edge solutions.</p>
+            <a href="#services" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p id="about-text">
+                We are a team of cybersecurity experts dedicated to safeguarding your digital assets. 
+                Our mission is to provide top-notch security services tailored to your needs. 
+                <span id="more-text" style="display: none;">
+                    With years of experience in risk assessment, threat detection, and data protection, 
+                    we ensure that your online presence remains secure. Our proactive approach helps 
+                    businesses stay ahead of cyber threats and mitigate potential security risks.
+                </span>
+            </p>
+            <button id="read-more-btn" onclick="toggleReadMore()">Read More</button>
+        </div>
+    </section>
+    
+    <script>
+    function toggleReadMore() {
+        var moreText = document.getElementById("more-text");
+        var btnText = document.getElementById("read-more-btn");
+    
+        if (moreText.style.display === "none") {
+            moreText.style.display = "inline";
+            btnText.innerHTML = "Read Less";
+        } else {
+            moreText.style.display = "none";
+            btnText.innerHTML = "Read More";
+        }
+    }
+    </script>
+    
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2><br>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Threat Detection and Response</h3>
+                    <p>We monitor and respond to cyber threats in real-time to keep your business safe.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Risk Assessment and Management</h3>
+                    <p>Identifying and managing potential risks to minimize their impact on your operations.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Security Audits</h3>
+                    <p>Conducting thorough security audits to ensure your systems are secure.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Data Protection and Recovery</h3>
+                    <p>Ensuring your data is safe and recoverable in case of breaches.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cyber Security Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

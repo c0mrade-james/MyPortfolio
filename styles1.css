@@ -1,0 +1,196 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(Image2.webp);
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #e6f2ff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header a {
+    color: #e6f2ff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Update text color for #home to charcoal grey */
+#home {
+    color: #36454F;
+}
+
+/* .hero retains its background image; text color updated to charcoal grey */
+.hero {
+    height: 500px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #36454F;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #36454F;
+}
+
+.cta-button {
+    display: inline-block;
+    color: #e6f2ff;
+    background: #0779e4;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #0255ba;
+}
+
+section {
+    padding: 20px 0;
+}
+section#services .service-list {
+    display: flex;
+    justify-content: space-between;
+}
+.service-item {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: #333;
+    color: #e6f2ff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Update text color for #about-us to charcoal grey */
+#about-us {
+    color: #36454F;
+}
+
+/* Underline animation on hover for About Us and Our Services headings */
+#about-us h2,
+section#services h2 {
+    position: relative;
+    display: inline-block;
+}
+section#services h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;  /* Adjust spacing as needed */
+    width: 100%;
+    height: 2px;
+    background-color: #36454F;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+section#services h2:hover::after {
+    transform: scaleX(1);
+}
+#about h2 {
+    position: relative;
+    display: inline-block;
+}
+#about {
+    color: black;  
+}
+#about p {
+    color: #2c3e50;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+
+
+
+
+#about h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;  /* Adjust spacing as needed */
+    width: 100%;
+    height: 2px;
+    background-color: #36454F;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+#about h2:hover::after {
+    transform: scaleX(1);
+}
+#read-more-btn {
+    background-color: #0779e4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#read-more-btn:hover {
+    background-color: #0255ba;
+}
+
+
